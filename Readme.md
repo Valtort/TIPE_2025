@@ -30,6 +30,23 @@ Le projet s'articule autour de 6 grandes étapes :
    - Calcul de l’intersection entre deux automates de Büchi.
 
 6. **Test de vacuité**
-   - Vérification si l’automate résultant accepte un mot infini (i.e., non-vide).
+   - Vérification si le langage l’automate résultant est vide ou non.
 
 ## I) Implémentation de la logique LTL
+On adopte une définition inductive de la logique LTL :
+![image](https://github.com/user-attachments/assets/21fb9eda-be0a-4e36-a052-06436ae732e3)
+
+L'opérateur X pour neXt (Dans l'état suivant, on vérifie phi): 
+![image](https://github.com/user-attachments/assets/8dc27196-e9f1-441d-97a7-8db49a8d4b05)
+
+L'opérateur F pour Finally (Il existe un état que l'on va atteindre dans le futur qui vérifie phi):
+![image](https://github.com/user-attachments/assets/f9f6e2c1-d97b-49e8-b364-4752a68bed97)
+
+L'opérateur G pour Globally (phi est vrai partout):
+![image](https://github.com/user-attachments/assets/ba6e4b16-3cd9-49a2-9bba-45b00c30d326)
+
+L'opérateur U pour Until (phi1 est vrai jusqu'à ce qu'on vérifie phi2 et après on fait ce que l'on veut):
+![image](https://github.com/user-attachments/assets/0a35177f-f608-416c-8356-6570f9ff2980)
+
+L'opérateur R pour Release (phi2 est vrai jusqu'à ce qu'on vérifie phi2 et phi1 et après on fait ce que l'on veut):
+![image](https://github.com/user-attachments/assets/74a110c9-2f24-49dd-bf9e-b6cd42a7e2fa)

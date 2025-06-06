@@ -85,4 +85,25 @@ Pour "pousser" la négation et supprimer F et G on utilise les Lois de De Morgan
 
 ![image](https://github.com/user-attachments/assets/270798b5-2811-42f4-a13c-46da114ce2d1)
 
+## II) Structures de Kripke et automates de Büchi
+
+Exemple et définition d'une structure de Kripke : 
+
+Ici AP désigne l'ensemble des propositions atomiques (variables).
+
+Ici :
+- Q désigne un ensemble d'états.
+- I désigne un ensemble d'états initiaux.
+- -> désigne un ensemble de transitions.
+- L désigne un ensemble d'étiquettes. (Une étiquette est placé sur un état mais on peut le voir comme : toutes les transitions sortantes de cet état sont étiquettés par l'étiquette du noeud actuelle)
+
+![image](https://github.com/user-attachments/assets/6b432d8f-aed3-4d27-b0a3-02caed2081b4)
+
+Pour les automates de Büchi : 
+
+Où F est un ensemble d'états finaux.
+
+![image](https://github.com/user-attachments/assets/289cc5a4-877b-4df1-9292-9c66f146f477)
+
+
 

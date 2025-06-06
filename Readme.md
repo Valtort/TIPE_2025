@@ -172,6 +172,14 @@ Voici les 3 algorithmes utilisées :
 
 ---
 
+## Conclusion
+
+Ainsi on peut savoir si le langage d'un automate de Büchi est vide, de ce fait, en modélisant un algorithme à l'aide d'une structure de Kripke, un invariant à l'aide d'une formule LTL, on peut vérifier si l'algorithme vérifie ou non l'invariant.
+
+## Limites
+
+Le principale problème est qu'en pratique, il est difficile de modélisé un algorithme à l'aide de structure de Kripke étant donné que la modélisation doit être faite manuellement, de plus, l'explosion du nombre d'état rend l'algorithme inutilisable pour des propriétées trop longues.
+
 
 
 

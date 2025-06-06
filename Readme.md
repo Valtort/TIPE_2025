@@ -35,14 +35,15 @@ Le projet s'articule autour de 6 grandes étapes :
 
 On veut savoir si le modèle M vérifie une propriété phi.
 
-B(M) représente l'automate de Büchi associé au modèle M.\\
+B(M) représente l'automate de Büchi associé au modèle M.
+
 B(Non phi) représente l'automate de Büchi associé à la formule (Non phi).
 
 (cf II) pour la définition d'un automate de Büchi)
 
 ![image](https://github.com/user-attachments/assets/af84ae28-bfb3-470d-a731-67118c35c74c)
 
-
+---
 ## I) Implémentation de la logique LTL
 On adopte une définition inductive de la logique LTL :
 

@@ -56,3 +56,17 @@ L'opérateur U pour Until (phi1 est vrai jusqu'à ce qu'on vérifie phi2 et apr�
 L'opérateur R pour Release (phi2 est vrai jusqu'à ce qu'on vérifie phi2 et phi1 et après on fait ce que l'on veut):
 
 ![image](https://github.com/user-attachments/assets/74a110c9-2f24-49dd-bf9e-b6cd42a7e2fa)
+
+Une formule LTL est dite sous forme normale négative si :
+- L'opérateur négation est appliqué seulement à des propositions atomiques (des variables).
+- Les opérateurs G et F n'apparaissent pas.
+
+Exemple : 
+
+![image](https://github.com/user-attachments/assets/9333f09b-c760-4827-b1df-e29778b0e57a)
+
+Pour "pousser" la négation et supprimer F et G on utilise les Lois de De Morgan ainsi que les règles suivants : 
+
+![image](https://github.com/user-attachments/assets/270798b5-2811-42f4-a13c-46da114ce2d1)
+
+

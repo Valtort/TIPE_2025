@@ -35,7 +35,7 @@ Le projet s'articule autour de 6 grandes étapes :
 
 On veut savoir si le modèle M vérifie une propriété phi.
 
-B(M) représente l'automate de Büchi associé au modèle M.
+B(M) représente l'automate de Büchi associé au modèle M.\\
 B(Non phi) représente l'automate de Büchi associé à la formule (Non phi).
 
 (cf II) pour la définition d'un automate de Büchi)

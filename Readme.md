@@ -154,5 +154,26 @@ Exemple :
 
 ![image](https://github.com/user-attachments/assets/13e3e459-de66-48d2-aad9-e1049a72ace1)
 
+---
+
+## VI) Test de vacuité
+> [!IMPORTANT]
+> Rappel : la condition d'acceptation pour un mot infini dans un automate de Büchi est que l'on passe infiniement souvent par un état de F.
+
+Ainsi, l'idée est la suivante, depuis chacun des états initiaux, on réalise un parcours en profondeur depuis celui-ci, dès que l'on rencontre un état final, on lance un parcours en profondeur depuis celui-ci afin de chercher un cycle.
+
+Voici les 3 algorithmes utilisées : 
+
+![image](https://github.com/user-attachments/assets/c874800e-05b8-461d-8b55-2d3d876fd8d4)
+
+![image](https://github.com/user-attachments/assets/87a1c4ca-5967-491a-9c53-ca446e42ed8f)
+
+![image](https://github.com/user-attachments/assets/85d8f49c-7ad4-42c5-9f47-20a7855d2fa8)
+
+---
+
+
+
+
 
 

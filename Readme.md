@@ -17,8 +17,8 @@ Le projet s'articule autour de 6 grandes étapes :
    - Représentation de formules LTL en OCaml.
    - Conversion en **forme normale négative (FNN)**.
 
-2. **Structures de Kripke**
-   - Modélisation d'états, transitions et étiquettes de propositions atomiques.
+2. **Structures de Kripke et automates de Büchi**
+   - Définitions.
 
 3. **Traduction en automate de Büchi**
    - Conversion d'une structure de Kripke en un automate de Büchi.
@@ -31,6 +31,12 @@ Le projet s'articule autour de 6 grandes étapes :
 
 6. **Test de vacuité**
    - Vérification si le langage l’automate résultant est vide ou non.
+---
+
+On vérifier qu'un modèle M vérifie une propriété phi.
+B_(quelquechose) réprésente : l'automate de Büchi associé à ...
+![image](https://github.com/user-attachments/assets/af84ae28-bfb3-470d-a731-67118c35c74c)
+
 
 ## I) Implémentation de la logique LTL
 On adopte une définition inductive de la logique LTL :

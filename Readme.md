@@ -57,6 +57,8 @@ L'opérateur R pour Release (phi2 est vrai jusqu'à ce qu'on vérifie phi2 et ph
 
 ![image](https://github.com/user-attachments/assets/74a110c9-2f24-49dd-bf9e-b6cd42a7e2fa)
 
+---
+
 Une formule LTL est dite sous forme normale négative si :
 - L'opérateur négation est appliqué seulement à des propositions atomiques (des variables).
 - Les opérateurs G et F n'apparaissent pas.
@@ -64,6 +66,8 @@ Une formule LTL est dite sous forme normale négative si :
 Exemple : 
 
 ![image](https://github.com/user-attachments/assets/9333f09b-c760-4827-b1df-e29778b0e57a)
+
+---
 
 Pour "pousser" la négation et supprimer F et G on utilise les Lois de De Morgan ainsi que les règles suivants : 
 

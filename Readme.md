@@ -30,7 +30,7 @@ Le projet s'articule autour de 6 grandes étapes :
    - Calcul de l’intersection entre deux automates de Büchi.
 
 6. **Test de vacuité**
-   - Vérification si le langage l’automate résultant est vide ou non.
+   - Vérification si le langage de l’automate résultant est vide ou non.
 ---
 
 On veut savoir si le modèle M vérifie une propriété phi.

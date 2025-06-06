@@ -4,7 +4,7 @@
 ## Objectif
 
 Ce projet a pour but de mettre en œuvre un **vérificateur de modèle (model checker)** en utilisant la logique temporelle linéaire (LTL) dans le langage OCaml.  
-L'objectif est de déterminer si une **structure de Kripke** satisfait une formule LTL donnée à l'aide d'automates de Büchi.
+L'objectif est de déterminer, à l'aide d'automates de Büchi, si une **structure de Kripke** satisfait une formule LTL donnée.
 L'interêt principal est de modéliser un algorithme à l'aide d'une structure de Kripke, et de montrer qu'il vérifie une certaine formule LTL (un invariant par exemple si on veut montrer la correction de notre algorithme).
 
 ---

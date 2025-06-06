@@ -147,5 +147,12 @@ Pour l'intersection, on fait comme pour l'intersection d'automates finis, mais l
 
 ---
 
+Exemple : 
+
+![image](https://github.com/user-attachments/assets/f6698c70-330f-4efe-88fd-53f4cca4fbb5)
+
+
+![image](https://github.com/user-attachments/assets/13e3e459-de66-48d2-aad9-e1049a72ace1)
+
 
 

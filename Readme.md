@@ -99,11 +99,53 @@ Ici :
 
 ![image](https://github.com/user-attachments/assets/6b432d8f-aed3-4d27-b0a3-02caed2081b4)
 
+---
+
 Pour les automates de Büchi : 
 
 Où F est un ensemble d'états finaux.
 
 ![image](https://github.com/user-attachments/assets/289cc5a4-877b-4df1-9292-9c66f146f477)
+
+---
+
+## III) Traduction en automate de Büchi
+
+![image](https://github.com/user-attachments/assets/de2f95bf-6b8d-46ce-a1ef-0be5c54b9d63)
+
+Exemple : 
+
+![image](https://github.com/user-attachments/assets/271df78b-3f85-4b02-a433-ebf49304f896)
+
+
+---
+
+## IV) Conversion LTL → automate de Büchi
+
+Je conseille de regarder l'animation page 10 du diapo pour comprendre.
+
+Règles utilisées : 
+
+![image](https://github.com/user-attachments/assets/713db73f-5e8a-4d15-92f2-7e89ce476005)
+
+---
+
+Les doubles flèches sur le diapo représentent un pas dans le temps, on avance à l'état suivant (car on à un X (pour neXt))
+
+---
+
+Exemple : automate de Büchi pour la formule Non (G (F p))
+
+![image](https://github.com/user-attachments/assets/3ea0db47-c7e1-4c37-84b4-4eb1a4e7e9cb)
+
+
+## V) Intersection d'automates de Büchi
+
+Pour l'intersection, on fait comme pour l'intersection d'automates finis, mais lorsque l'intersection des étiquettes entre deux états est vide, on n'accepte pas les transitions.
+
+![image](https://github.com/user-attachments/assets/99bfd707-4d65-4d90-9b6a-e2dea657b03e)
+
+---
 
 
 

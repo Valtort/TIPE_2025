@@ -158,7 +158,7 @@ Exemple :
 
 ## VI) Test de vacuité
 > [!IMPORTANT]
-> Rappel : la condition d'acceptation pour un mot infini dans un automate de Büchi est que l'on passe infiniement souvent par un état de F.
+> Rappel : la condition d'acceptation pour un mot infini dans un automate de Büchi est que l'on passe infiniment souvent par un état de F.
 
 Ainsi, l'idée est la suivante, depuis chacun des états initiaux, on réalise un parcours en profondeur depuis celui-ci, dès que l'on rencontre un état final, on lance un parcours en profondeur depuis celui-ci afin de chercher un cycle.
 
